@@ -1,0 +1,200 @@
+*{
+    margin:0;
+padding:0;
+}
+
+body{
+    background:transparent;
+}
+      /*  background-size: cover;
+ background-position: center center; 
+  background-repeat: no-repeat;       
+  background-attachment: fixed; 
+      
+ /* margin: 0;                        /*    Remove default margin */
+/*  padding: 0;
+  height: 100vh;  */
+  
+   
+
+.he{
+    background-color: black;
+    height:200px;
+    width:1100px;
+
+}
+.top{
+    margin-top:40px;
+}
+.she{
+   /* background-color: black;*/
+    height:250px;
+    width:1300px;
+    
+    margin-right: 80px;
+   /*  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyZRKzg3KFduyKbZ1afR6Gq6_UVZCqWIsULg&s);*/
+      background: transparent;
+   /*background-size:cover;             /* Cover the full screen */
+ /* background-position: center center;  /* Center the image */
+/*  background-repeat: no-repeat;        /* Don't repeat */
+ /* background-attachment:local;        /* Optional parallax effect */
+  display:flex;
+  gap:60px;
+  border-top: 2px;
+  border-color: grey;
+  margin-top:10px;
+
+}
+
+.title{
+    font-size: large;
+    font-size: 80px;
+    font-family:'fanatacy';
+    font-weight:580;
+    text-align: center;
+    color:rgb(125, 96, 22);
+    text-decoration:double;
+    margin-bottom: 0px;
+    height:90px;
+    width:fit-content;
+    margin-left: 600px;
+
+    
+}
+.leftside{
+    background:transparent;
+    width:150px;
+    height:1200px;
+}
+#a{
+    width:280px;
+    margin-left:20px;
+  
+}
+#p{
+    display:flex;
+    gap:15px;
+    margin-top:15px;
+}
+h2{
+    color:rgb(254, 250, 250);
+}
+h3{
+    color:rgb(254, 250, 250);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+h1{
+    color:rgb(253, 250, 250);
+}
+#left{
+    color:rgb(247, 245, 245);
+    margin-top:15px;
+}
+.song{
+    color:rgb(252, 249, 249);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.search{
+    height:30px;
+    width:270px;
+    font-size: medium;
+    color:rgb(232, 109, 109);
+    font-weight: 200;
+    font-style: oblique;
+
+}
+.ss {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.head{
+
+        display:flex;
+        gap:50px;
+      background-image: url(https://img.freepik.com/premium-vector/music-calligraphic-golden-line-art-text-shopping-poster-vector-illustration-design_460848-3233.jpg?ga=GA1.1.1409807399.1749619447&semt=ais_hybrid&w=740);
+
+      /*  background-color: rgb(75, 72, 72);*/
+      background-size:cover; 
+       /*  background-position: center center; 
+        background-repeat: no-repeat;       
+        background-attachment: fixed; */
+     /* background-repeat:no-repeat;
+  /*  background-image: url(https://media.istockphoto.com/id/678535734/photo/dark-background-table-top-copy-space.jpg?s=612x612&w=0&k=20&c=9x05KMGvpqp748jiYpveZWKFXa-TyeC94qf0_o9gCDk=);
+        background-size:cover;             Cover the full screen 
+  background-position: center center;   Center the image 
+  background-repeat: no-repeat;         Don't repeat 
+  background-attachment:local;       Optional parallax effect */
+  margin: 0;                          
+  padding: 0;
+  height:360px;
+}
+.icon{
+    font-size: 30px;
+}
+.screen{
+    display:flex;
+  /*  justify-content: space-between;*/
+    gap:400px;
+}
+.img{
+    height:150px;
+    width:150px;
+    border-width: 8px;
+    border-radius: 4px;
+    border-color: rgb(252, 249, 249);
+    object-fit:cover;
+    
+}
+    .bon{
+        margin-left: 300px;
+        display:flex;
+        justify-content: space-between;
+        gap:15px;
+        color:rgb(245, 241, 241);
+        
+    }
+    #o{
+        display:flex;
+        gap:50px;
+        /*background-image: url();*/
+        background-color: rgb(7, 7, 7);
+        background-size:cover; 
+         background-position: center center; 
+        background-repeat: no-repeat;       
+        background-attachment: fixed; 
+    }
+  
+#boni{
+    margin: 0;
+    padding:0;
+    /*text-decoration-color: white;
+    text-align: center;
+      color:white;
+    background-color: rgb(103, 101, 101);
+        height:30px;
+        width:80px;*/
+        font-size: 20px;
+        font-style: italic;
+        color:rgb(253, 250, 250);
+
+    
+}
+
+
+.layout{
+    width: 330px;
+    height:530px;
+    margin:20px;
+    padding:20px;
+    background-color:black;
+    /*margin-left: 600px;*/
+    }
+  header{
+    background:transparent;
+  } 
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Now Playing</title>
+  <link rel="stylesheet" href="song.css">
+</head>
+<body>
+  <div class="player">
+    <img id="cover" src="" alt="Song Image" />
+    <h2 id="title">Song Title</h2>
+    <p id="artist">Artist</p>
+    
+    <audio id="audio"></audio>
+
+    <div class="controls">
+      <button id="prev">⏮️</button>
+      <button id="play">▶️</button>
+      <button id="pause">⏸️</button>
+      <button id="next">⏭️</button>
+      <a id="download" download target="_blank">⬇️ Download</a>
+    </div>
+  </div>
+     <script type="module">
+        import songs from './data.js';
+        const urlparams=new URLSearchParams(window.location.search);
+        const songID=urlparams.get('id');
+        const index=songs.findIndex(song=>song.id===songID);git 
+        const song=songs[index];
+        if (index === -1 || !song) {
+             alert("Song not found or invalid ID!");
+             window.location.href = "index.html";
+              throw new Error("Invalid Song ID");
+}
+        //const audioUrl = `https://docs.google.com/uc?export=download&id=${song.id}`;
+        const audioUrl = song.id;
+
+
+        document.getElementById("cover").src = song.image;
+       document.getElementById("title").innerText = song.title;
+        document.getElementById("artist").innerText = song.artist;
+        const audio=document.getElementById("audio");
+        audio.src=audioUrl;
+        document.getElementById("play").onclick = () => audio.play();
+       document.getElementById("pause").onclick = () => audio.pause();
+       document.getElementById("download").href=audioUrl;
+       document.getElementById("next").onclick=()=>{
+        const nextindex=(index+1)%songs.length;
+          window.location.href=`song.html?id=${songs[nextindex].id}`;
+       }
+        document.getElementById("prev").onclick = () => {
+        const prevIndex = (index - 1 + songs.length) % songs.length;
+        window.location.href = `song.html?id=${songs[prevIndex].id}`;
+      };
+       
+
+      document.getElementById("cover").onclick = () => {
+           audio.play();
+          };
+
+
+
+     </script>
+
+
+</body>
+</html>

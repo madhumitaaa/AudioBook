@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ /* background: linear-gradient(to right, #ffc0cb, #ffe4e1);*/
+ background: url(https://img.freepik.com/free-photo/abstract-empty-smooth-light-pink-studio-room-background-use-as-montage-product-display-banner-template_1258-55347.jpg?ga=GA1.1.1409807399.1749619447&semt=ais_hybrid&w=740);
+     background-size:cover;             /* Cover the full screen */
+  background-position: center center;  /* Center the image */
+  background-repeat: no-repeat;        /* Don't repeat */
+  background-attachment:local;        /* Optional parallax effect */
+  display:flex;
+  gap:60px;
+  border-top: 2px;
+  border-color: grey;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.player {
+  background: white;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+  max-width: 350px;
+}
+
+.player img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+#title {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #d63384;
+}
+
+#artist {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+audio {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.controls button,
+.controls a {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.controls button:hover,
+.controls a:hover {
+  background-color: #d63384;
+}
