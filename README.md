@@ -18,7 +18,7 @@ A modern and responsive audiobook/music player web application built with HTML, 
 
 ![Screenshot 2025-06-21 145535](https://github.com/user-attachments/assets/7ab9f48c-0aa4-4a14-ae2e-d10ee1ed46af)
 
-![Screenshot 2025-06-21 141207](https://github.com/user-attachments/assets/82531e94-ab6e-4415-af7a-e98c5df50a5f)
+
 ![Screenshot 2025-06-21 141230](https://github.com/user-attachments/assets/1320aab0-2d01-4756-a609-3d50e8b1b280)
 
 
