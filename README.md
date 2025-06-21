@@ -14,3 +14,8 @@ A modern and responsive audiobook/music player web application built with HTML, 
 📱 Fully responsive layout for mobile and desktop.
 
 🎨 Styled like a modern pink-themed music player UI.
+![Screenshot 2025-06-21 141120](https://github.com/user-attachments/assets/a9cbcce0-5d57-4a76-89f5-c04b30ad7371)
+
+![Screenshot 2025-06-21 141156](https://github.com/user-attachments/assets/8597d6e9-ec3e-4dba-b917-21fc17ad4b3a)
+![Screenshot 2025-06-21 141207](https://github.com/user-attachments/assets/82531e94-ab6e-4415-af7a-e98c5df50a5f)
+![Screenshot 2025-06-21 141230](https://github.com/user-attachments/assets/1320aab0-2d01-4756-a609-3d50e8b1b280)
